@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./gd.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="gd.html"><img src="./logo.png" alt="" class="logo-icon"></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#testimonials" class="nav-link active">About us</a></li> 
+                    <li><a href="#special-menu" class="nav-link">Our Product</a></li> 
+                    <li><a href="#delivery-service" class="nav-link">Delivery</a></li> 
+                </ul>
+            </nav>
+            
+            <div class="navbar-search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Cappuccino">
+            </div>
+
+            <div class="header-actions">
+                <a href="gh.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="coffee-landing">
+            <div class="container">
+                
+                <div class="hero-top">
+                    <div class="hero-text-area">
+                        <h1>Enjoy your <span class="highlight-text">coffee</span> before your activity</h1>
+                        <p>Boost your productivity and build your mood with a glass of coffee in the morning.</p>
+    
+                        <a href="#" class="btn-order-now">Order now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="hero-visual-wrapper">
+                        <div class="hero-visual">
+                            <img src="0c67f3a1d0920597f8ab0d8009b5c51847d533b9.png" alt="Cappuccino" class="cappuccino-img">
+                        </div>
+                        <span class="price-tag">18K</span>
+                        <div class="rating-badge">4.8 <i class="fa-solid fa-star"></i></div>
+                        <span class="drink-name-badge">Cappuccino</span>
+                    </div>
+
+                </div>
+
+                <div class="coffee-beans-decor">
+                    <span style="top: 10%; left: 15%;" class="bean"></span>
+                    <span style="top: 30%; right: 20%;" class="bean"></span>
+                    <span style="bottom: 5%; left: 45%;" class="bean"></span>
+                    <span style="top: 25%; left: 40%;" class="bean"></span>
+                </div>
+
+                <div class="popular-now">
+                    <h2>Popular Now</h2>
+                    <div class="product-grid">
+                        
+                        <div class="product-card popular-item-new" data-product-id="POPULAR_VL" data-name="Vanilla Latte" data-price="21000">
+                            <div class="card-image-wrapper">
+                                <img src="0e8c7a0175d089e84aef14b9bb645749bfe2ca4a.jpg" alt="Vanilla Latte">
+                                <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                            </div>
+                            
+                            <h4 class="product-title-new">Vanilla Latte</h4>
+                            <span class="price-standalone-new">21 K</span>
+                                
+                            <div class="product-actions"> <div class="temp-options">
+                                    <button class="temp-btn hot active">Hot</button>
+                                    <button class="temp-btn cold">Cold</button>
+                                </div>
+                                <button class="add-to-cart-popular-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="product-card popular-item-new" data-product-id="POPULAR_ES" data-name="Espresso" data-price="12000">
+                             <div class="card-image-wrapper">
+                                <img src="35952426defde1415bba2d0b78d36720381dcfcf.jpg" alt="Espresso">
+                                <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                            </div>
+                            
+                            <h4 class="product-title-new">Espresso</h4>
+                            <span class="price-standalone-new">12 K</span>
+                                
+                            <div class="product-actions"> <div class="temp-options">
+                                    <button class="temp-btn hot active">Hot</button>
+                                    <button class="temp-btn cold">Cold</button>
+                                </div>
+                                <button class="add-to-cart-popular-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="product-card popular-item-new" data-product-id="POPULAR_HL" data-name="Hazelnut Latte" data-price="23000">
+                            <div class="card-image-wrapper">
+                                <img src="158fb07fe365702cac8251d6833a492fc149b029.jpg" alt="Hazelnut Latte">
+                                <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                            </div>
+                            
+                            <h4 class="product-title-new">Hazelnut Latte</h4>
+                            <span class="price-standalone-new">23 K</span>
+                                
+                            <div class="product-actions"> <div class="temp-options">
+                                    <button class="temp-btn hot active">Hot</button>
+                                    <button class="temp-btn cold">Cold</button>
+                                </div>
+                                <button class="add-to-cart-popular-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="delivery-steps" id="delivery-service">
+                    <h2>How to use delivery service</h2> 
+                    <div class="steps-container">
+                        
+                        <div class="step-item">
+                            <div class="step-icon-wrapper">
+                                <img src="89b3fcf936526347a2c842c6a626da201bbd6e28.png" alt="Choose Coffee">
+                            </div>
+                            <h3>1. Choose your coffee</h3>
+                            <p>there are 29+ coffees for you</p>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-icon-wrapper">
+                                <img src="19c2473f0b3c5035bc1343935547da93aeb4bbff.png" alt="Delivery">
+                            </div>
+                            <h3>2. We delivery it to you</h3>
+                            <p>we deliver for delivery service</p>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-icon-wrapper">
+                                <img src="4b9df5d91756870f70ffcb89a4d3c20ebb433fd5.png" alt="Enjoy Coffee">
+                            </div>
+                            <h3>3. Enjoy your coffee</h3>
+                            <p>Choose delivery service</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about-us-section" id="testimonials">
+            <div class="container about-container">
+                
+                <div class="about-image-wrapper">
+                    <img src="7b13962f355f118f1dc1c8a3206256b61fc2930d.jpg" alt="Coffee on table" class="about-img">
+                </div>
+
+                <div class="about-content-area">
+                    <h2>About us</h2>
+                    <h3>We provide quality coffee, and ready to deliver.</h3>
+                    <p>We are a company that makes and distributes delicious drinks, our main product is made with a secret recipe and available in stores worldwide.</p>
+                    <a href="#" class="btn-about-us">Check our stores</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="special-menu-section" id="special-menu">
+            <div class="container">
+                
+                <h2 class="section-title">Special menu for <span>you</span></h2>
+
+                <div class="menu-grid">
+                    
+                    <div class="product-card menu-item" data-product-id="MENU_SW" data-name="Sandwich" data-price="12000">
+                        <div class="card-image-wrapper">
+                            <img src="1e7ac6e57228936bc326698870da10eba7374cab.jpg" alt="Sandwich">
+                            <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        
+                        <div class="card-header">
+                            <h4>Sandwich</h4>
+                            <span class="price-item">12 K</span>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Mix meat and vegetables</p>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="product-card menu-item" data-product-id="MENU_HM" data-name="Hot Milk" data-price="12000">
+                        <div class="card-image-wrapper">
+                            <img src="2c6ebe61e2802276b6dd10aef80543e7959766c0.jpg" alt="Hot Milk">
+                            <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        
+                        <div class="card-header">
+                            <h4>Hot Milk</h4>
+                            <span class="price-item">12 K</span>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Milk and sugar</p>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card menu-item" data-product-id="MENU_CIC" data-name="Coffee Ice Cream" data-price="12000">
+                        <div class="card-image-wrapper">
+                            <img src="2cff6e29a2b01417fd392e15cf7be6fffa9cf3a2.jpg" alt="Coffee Ice Cream">
+                            <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        
+                        <div class="card-header">
+                            <h4>Coffee Ice Cream</h4>
+                            <span class="price-item">12 K</span>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Coffee ice cream</p>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="product-card menu-item" data-product-id="MENU_CP" data-name="Cappuccino" data-price="12000">
+                        <div class="card-image-wrapper">
+                            <img src="22b0d20623f459b8423be989204612c38225fdca.jpg" alt="Hot Cappuccino">
+                            <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        
+                        <div class="card-header">
+                            <h4>Cappuccino</h4>
+                            <span class="price-item">12 K</span>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Hot Cappuccino</p>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card menu-item" data-product-id="MENU_MO" data-name="Moccaccino" data-price="12000">
+                        <div class="card-image-wrapper">
+                            <img src="89bd9eb3ddf4574a286e086b3be2a739299db1c2.jpg" alt="Moccaccino">
+                            <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        
+                        <div class="card-header">
+                            <h4>Moccaccino</h4>
+                            <span class="price-item">12 K</span>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Hot Moccaccino</p>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card menu-item" >
+                        <div class="card-image-wrapper">
+                            <img src="34966ea2d13341931086a37e8dddf9de0d0d6bdf.jpg" alt="Waffle Ice Cream">
+                            <span class="rating-badge-item">4.8 <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        
+                        <div class="card-header">
+                            <h4>Waffle Ice Cream</h4>
+                            <span class="price-item">12 K</span>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Waffle with ice cream</p>
+                            <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <section class="testimonials-section">
+  <div class="container testimonials-container">
+    <div class="testimonials-text">
+      <h2>What they say about us</h2>
+      <p>We always provide the best service and always maintain the quality of coffee</p>
+    </div>
+    <div class="testimonials-cards">
+      <div class="testimonial-card">
+        <img src="b94cbc3f19e1c6ac398f3410c0e7972097606a77.jpg" alt="Naura">
+        <div class="testimonial-content">
+          <h4>Naura</h4>
+          <p>I really love the cappuccino, the coffee was very smooth</p>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="12a4034fd82f1f06012c872e2d7726483b03bb97.jpg" alt="John">
+        <div class="testimonial-content">
+          <h4>John</h4>
+          <p>This coffee shop is very convenient</p>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="43e8fc7c766fd5b91e50c7d649fccf5fe6b29276.jpg" alt="Azura">
+        <div class="testimonial-content">
+          <h4>Azura</h4>
+          <p>The coffee menu here is very much</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</section>
+      <section class="subscribe-section">
+            <div class="container subscribe-container">
+                <div class="subscribe-content">
+                    <h2>Subscribe to get 50% discount price</h2>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Email address" required>
+                        <button type="submit" class="btn-order-now">Order now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
