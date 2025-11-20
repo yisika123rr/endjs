@@ -148,7 +148,7 @@ function createCartSummaryUI(items) {
             </div>
             
             <button class="checkout-btn">Tiến hành Thanh toán</button>
-            <a href="gd.html" class="continue-shopping">Tiếp tục mua sắm</a>
+            <a href="index.html" class="continue-shopping">Tiếp tục mua sắm</a>
         </div>
     `;
 }
