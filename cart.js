@@ -162,7 +162,7 @@ async function renderCart() {
         cartContentWrapper.innerHTML = `<div style="text-align: center; width: 100%; padding: 50px;">
             <i class="fa-solid fa-cart-shopping" style="font-size: 3rem; color: #ddd; margin-bottom: 20px;"></i>
             <p>Giỏ hàng của bạn đang trống.</p>
-            <a href="gd.html" style="color: var(--accent-color); margin-top: 10px; display: block;">Bắt đầu mua sắm ngay!</a>
+            <a href="index.html" style="color: var(--accent-color); margin-top: 10px; display: block;">Bắt đầu mua sắm ngay!</a>
         </div>`;
         return;
     }
